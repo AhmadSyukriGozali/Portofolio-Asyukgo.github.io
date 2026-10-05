@@ -1,0 +1,60 @@
+import Link from "next/link";
+import { certificates } from "@/data/certificates";
+import CertificatesGallery from "@/components/CertificatesGallery";
+
+export default function CertificatesPage() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-white">
+      {/* Header */}
+      <section className="relative overflow-hidden border-b border-white/10">
+        {/* Background glow */}
+        <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-96 w-96 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[140px]" />
+
+        <div className="mx-auto max-w-6xl px-6 pb-16 pt-32 sm:pb-20">
+          {/* Back button */}
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition duration-300 hover:text-cyan-400"
+          >
+            <span>←</span>
+            Back to Home
+          </Link>
+
+          {/* Heading */}
+          <div className="mt-10 max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
+              Certificates
+            </p>
+
+            <h1 className="mt-4 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
+              My Learning Journey.
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
+              Kumpulan sertifikat yang saya peroleh selama proses
+              belajar, mengikuti pelatihan, dan mengembangkan
+              kemampuan di bidang teknologi.
+            </p>
+          </div>
+
+          {/* Certificate count */}
+          <div className="mt-8">
+            <span className="inline-flex rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-slate-400">
+              {certificates.length} Certificates
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <CertificatesGallery />
+
+      {/* Footer */}
+      <footer className="border-t border-white/10 py-8">
+        <div className="mx-auto max-w-6xl px-6 text-center text-sm text-slate-500">
+          © {new Date().getFullYear()} Ahmad Syukri Gozali. All rights reserved.
+        </div>
+      </footer>
+    </main>
+  );
+}
