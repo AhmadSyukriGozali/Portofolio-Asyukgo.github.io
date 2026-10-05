@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-pribadi.vercel.app"),
+  metadataBase: new URL("https://portofolio-asyukgo.vercel.app"),
   
   title: {
     default: "Ahmad Syukri Gozali — Portfolio",
