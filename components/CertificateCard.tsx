@@ -23,7 +23,7 @@ export default function CertificateCard({
         <div className="relative h-72 overflow-hidden border-b border-white/10 bg-slate-900">
           <iframe
             src={`${certificate.file}#toolbar=0&navpanes=0&scrollbar=0`}
-            title={`Preview ${certificate.title}`}
+            title={`Pratinjau ${certificate.title}`}
             className="pointer-events-none absolute left-1/2 top-1/2 h-[140%] w-[100%] -translate-x-1/2 -translate-y-1/2 bg-white"
           />
 
@@ -33,7 +33,7 @@ export default function CertificateCard({
           {/* View badge */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
             <span className="rounded-xl border border-white/15 bg-slate-950/80 px-4 py-2.5 text-sm font-semibold text-white shadow-xl backdrop-blur-xl">
-              View Certificate ↗
+              Lihat Sertifikat ↗
             </span>
           </div>
 
@@ -59,7 +59,7 @@ export default function CertificateCard({
             </span>
 
             <span className="text-sm font-medium text-slate-400 transition duration-300 group-hover:text-cyan-400">
-              View PDF →
+              Lihat PDF →
             </span>
           </div>
         </div>

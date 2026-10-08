@@ -26,18 +26,18 @@ export default function Contact() {
             {/* Label */}
             <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-4 py-2 text-sm font-medium text-cyan-300">
               <span className="h-2 w-2 rounded-full bg-cyan-400" />
-              Let&apos;s Connect
+              Mari Terhubung
             </div>
 
             {/* Heading */}
             <h2 className="mx-auto mt-7 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-              Let&apos;s build something
-              <span className="text-cyan-400"> meaningful.</span>
+              Mari membangun sesuatu
+              <span className="text-cyan-400"> yang bermakna.</span>
             </h2>
 
             {/* Description */}
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-              Jika ingin berdiskusi mengenai project, teknologi,
+              Jika ingin berdiskusi mengenai proyek, teknologi,
               kolaborasi, atau peluang lainnya, saya terbuka untuk
               terhubung dan berdiskusi.
             </p>
@@ -48,7 +48,7 @@ export default function Contact() {
                 href="mailto:ahmaddoang0809@gmail.com"
                 className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-6 py-3.5 font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/20"
               >
-                Email Me
+                Kirim Email
                 <span className="ml-2">↗</span>
               </a>
 

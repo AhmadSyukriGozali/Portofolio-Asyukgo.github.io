@@ -1,9 +1,9 @@
 const skillGroups = [
   {
     number: "01",
-    title: "Web Development",
+    title: "Pengembangan Web",
     description:
-      "Teknologi yang saya gunakan untuk membangun interface dan aplikasi web modern.",
+      "Teknologi yang saya gunakan untuk membangun antarmuka dan aplikasi web modern.",
     skills: [
       "HTML",
       "CSS",
@@ -19,21 +19,21 @@ const skillGroups = [
     number: "02",
     title: "Backend & Database",
     description:
-      "Teknologi yang saya pelajari untuk membangun logic aplikasi, API, dan pengelolaan database.",
+      "Teknologi yang saya pelajari untuk membangun logika aplikasi, API, dan mengelola database.",
     skills: ["Node.js", "REST API", "PostgreSQL", "Supabase"],
   },
   {
     number: "03",
-    title: "Development Tools",
+    title: "Tools Pengembangan",
     description:
       "Tools yang membantu saya dalam proses coding, version control, dan deployment.",
     skills: ["Git", "GitHub", "VS Code", "Vercel"],
   },
   {
     number: "04",
-    title: "Other Skills",
+    title: "Keahlian Lainnya",
     description:
-      "Bidang teknologi lain yang sedang saya eksplorasi melalui project dan pembelajaran.",
+      "Bidang teknologi lain yang sedang saya eksplorasi melalui proyek dan pembelajaran.",
     skills: [
       "Machine Learning",
       "Integrasi IoT & AI",
@@ -55,7 +55,7 @@ export default function Skills() {
         {/* Section heading */}
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            Skills
+            Keahlian
           </p>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
@@ -65,7 +65,7 @@ export default function Skills() {
           </h2>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-            Saya terus mengembangkan kemampuan teknis melalui project,
+            Saya terus mengembangkan kemampuan teknis melalui proyek,
             eksperimen, dan proses belajar secara langsung.
           </p>
         </div>
@@ -126,14 +126,14 @@ export default function Skills() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm leading-6 text-slate-400">
               <span className="font-semibold text-cyan-400">
-                Currently learning:
+                Sedang dipelajari:
               </span>{" "}
-              modern web development, backend architecture, database
-              management, dan deployment.
+              pengembangan web modern, arsitektur backend, pengelolaan
+              database, dan deployment.
             </p>
 
             <span className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600">
-              Always Learning
+              Terus Belajar
             </span>
           </div>
         </div>

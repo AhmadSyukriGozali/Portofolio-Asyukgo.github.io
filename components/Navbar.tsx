@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const links = [
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Certificates", href: "#certificates" },
+  { name: "Tentang Saya", href: "#about" },
+  { name: "Keahlian", href: "#skills" },
+  { name: "Project", href: "#projects" },
+  { name: "Sertifikat", href: "#certificates" },
 ];
 
 export default function Navbar() {
@@ -74,7 +74,7 @@ export default function Navbar() {
             href="#contact"
             className="hidden rounded-xl border border-cyan-400/25 bg-cyan-400/5 px-4 py-2.5 text-sm font-semibold text-cyan-400 transition duration-300 hover:-translate-y-0.5 hover:border-cyan-400/40 hover:bg-cyan-400/10 md:block"
           >
-            Contact
+            Hubungi Saya
           </a>
 
           {/* Mobile menu button */}
@@ -82,7 +82,7 @@ export default function Navbar() {
             type="button"
             onClick={() => setOpen((current) => !current)}
             className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-lg text-slate-300 transition duration-300 hover:border-cyan-400/30 hover:text-cyan-400 md:hidden"
-            aria-label={open ? "Close navigation" : "Open navigation"}
+            aria-label={open ? "Tutup navigasi" : "Buka navigasi"}
             aria-expanded={open}
           >
             {open ? "✕" : "☰"}
@@ -115,7 +115,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-xl bg-cyan-500 px-4 py-3 text-center text-sm font-semibold text-slate-950 transition duration-300 hover:bg-cyan-400"
             >
-              Contact Me
+              Hubungi Saya
             </a>
           </div>
         </div>

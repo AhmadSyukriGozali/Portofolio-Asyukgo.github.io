@@ -56,7 +56,7 @@ export default function CertificateModal({
         <div className="flex shrink-0 items-center justify-between gap-4 border-b border-white/10 bg-slate-950/95 px-5 py-4 backdrop-blur-xl sm:px-6">
           <div className="min-w-0">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-400">
-              Certificate
+              Sertifikat
             </p>
 
             <h2 className="mt-1 truncate text-sm font-semibold text-white sm:text-base">
@@ -72,7 +72,7 @@ export default function CertificateModal({
               rel="noopener noreferrer"
               className="hidden rounded-xl border border-white/10 px-4 py-2 text-sm font-semibold text-slate-300 transition duration-300 hover:border-cyan-400/30 hover:text-cyan-400 sm:inline-flex"
             >
-              Open PDF ↗
+              Buka PDF ↗
             </a>
 
             {/* Download */}
@@ -81,7 +81,7 @@ export default function CertificateModal({
               download
               className="hidden rounded-xl border border-white/10 px-4 py-2 text-sm font-semibold text-slate-300 transition duration-300 hover:border-cyan-400/30 hover:text-cyan-400 sm:inline-flex"
             >
-              Download
+              Unduh
             </a>
 
             {/* Close */}
@@ -113,7 +113,7 @@ export default function CertificateModal({
             rel="noopener noreferrer"
             className="flex flex-1 items-center justify-center rounded-xl border border-white/10 px-4 py-2.5 text-sm font-semibold text-slate-300 transition hover:border-cyan-400/30 hover:text-cyan-400"
           >
-            Open PDF ↗
+            Buka PDF ↗
           </a>
 
           <a
@@ -121,7 +121,7 @@ export default function CertificateModal({
             download
             className="flex flex-1 items-center justify-center rounded-xl bg-cyan-500 px-4 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
           >
-            Download
+            Unduh
           </a>
         </div>
       </div>

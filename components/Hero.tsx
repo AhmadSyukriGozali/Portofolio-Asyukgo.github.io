@@ -22,7 +22,7 @@ export default function Hero() {
             </div>
 
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">
-              Hello, I'm
+              Halo, Saya
             </p>
 
             <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">
@@ -32,13 +32,13 @@ export default function Hero() {
             </h1>
 
             <h2 className="mt-7 text-xl font-medium text-slate-300 sm:text-2xl">
-              Informatics Student & Software Developer
+              Mahasiswa Teknik Informatika & Pengembang Perangkat Lunak
             </h2>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
               Mahasiswa Teknik Informatika yang sedang mengembangkan
-              kemampuan di bidang software development, web development,
-              dan teknologi modern.
+              kemampuan di bidang pengembangan perangkat lunak,
+              pengembangan web, dan teknologi modern.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -63,7 +63,7 @@ export default function Hero() {
             <div className="mt-12 flex flex-wrap gap-x-8 gap-y-4 text-sm text-slate-500">
               <span>🎓 Teknik Informatika</span>
               <span>📍 Indonesia</span>
-              <span>💻 Open to Opportunities</span>
+              <span>💻 Terbuka untuk Peluang</span>
             </div>
           </div>
 
@@ -93,11 +93,11 @@ export default function Hero() {
               {/* Floating badge */}
               <div className="absolute -bottom-5 -left-5 rounded-2xl border border-white/10 bg-slate-900/90 px-5 py-4 shadow-xl backdrop-blur-xl">
                 <p className="text-xs text-slate-500">
-                  Currently
+                  Saat Ini
                 </p>
 
                 <p className="mt-1 font-semibold text-white">
-                  Learning & Building
+                  Belajar & Berkarya
                 </p>
               </div>
 

@@ -20,16 +20,16 @@ export default function CertificatesGallery() {
           <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">
-                Collection
+                Koleksi
               </p>
 
               <h2 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
-                All Certificates
+                Semua Sertifikat
               </h2>
             </div>
 
             <p className="text-sm text-slate-500">
-              Click a certificate to preview
+              Klik sertifikat untuk melihat pratinjau
             </p>
           </div>
 

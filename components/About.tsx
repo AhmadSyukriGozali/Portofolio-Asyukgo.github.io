@@ -9,7 +9,7 @@ export default function About() {
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-              About Me
+              Tentang Saya
             </p>
 
             <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl">
@@ -22,21 +22,21 @@ export default function About() {
           {/* Description */}
           <div className="space-y-5">
             <p className="text-lg leading-8 text-slate-300">
-              Saya Ahmad Syukri Gozali, Mahasiswa Teknik Informatika
+              Saya Ahmad Syukri Gozali, mahasiswa Teknik Informatika
               di Universitas Bina Sarana Informatika yang memiliki
-              ketertarikan pada dunia software development.
+              ketertarikan pada dunia pengembangan perangkat lunak.
             </p>
 
             <p className="leading-8 text-slate-400">
               Saat ini saya sedang memperkuat kemampuan dalam pengembangan
               aplikasi web, database, dan teknologi modern yang digunakan
-              dalam proses pengembangan software.
+              dalam proses pengembangan perangkat lunak.
             </p>
 
             <p className="leading-8 text-slate-400">
               Bagi saya, proses belajar programming tidak hanya berasal
               dari teori. Saya lebih banyak belajar dengan membangun
-              project, menyelesaikan masalah, dan memahami bagaimana
+              proyek, menyelesaikan masalah, dan memahami bagaimana
               sebuah aplikasi bekerja dari sisi frontend hingga backend.
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function About() {
             </div>
 
             <p className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-              Education
+              Pendidikan
             </p>
 
             <h3 className="mt-2 text-lg font-semibold text-white">
@@ -74,11 +74,11 @@ export default function About() {
             </p>
 
             <h3 className="mt-2 text-lg font-semibold text-white">
-              Informatics Student
+              Mahasiswa Teknik Informatika
             </h3>
 
             <p className="mt-2 text-sm leading-6 text-slate-400">
-              Semester 7 · Aktif belajar dan membangun project
+              Semester 7 · Aktif belajar dan membangun proyek
             </p>
           </div>
 
@@ -89,11 +89,11 @@ export default function About() {
             </div>
 
             <p className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-              Current Focus
+              Fokus Saat Ini
             </p>
 
             <h3 className="mt-2 text-lg font-semibold text-white">
-              Web Development
+              Pengembangan Web
             </h3>
 
             <p className="mt-2 text-sm leading-6 text-slate-400">

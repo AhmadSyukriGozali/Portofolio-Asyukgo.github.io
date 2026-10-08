@@ -11,17 +11,17 @@ export default function Projects() {
         {/* Section heading */}
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            Projects
+            Proyek
           </p>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-            Things I&apos;m building.
+            Proyek yang sedang saya bangun.
           </h2>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-            Beberapa project yang saya kerjakan sebagai bagian dari
+            Beberapa proyek yang saya kerjakan sebagai bagian dari
             proses belajar, eksplorasi teknologi, dan pengembangan
-            kemampuan software development.
+            kemampuan pengembangan perangkat lunak.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export default function Projects() {
               {/* Status */}
               <div className="inline-flex items-center gap-2 rounded-full border border-amber-400/20 bg-amber-400/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-amber-300">
                 <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-400" />
-                In Development
+                Dalam Pengembangan
               </div>
 
               <h3 className="mt-5 text-2xl font-bold text-white sm:text-3xl">
@@ -151,13 +151,13 @@ export default function Projects() {
               </h3>
 
               <p className="mt-2 text-lg font-medium text-cyan-400">
-                E-Commerce Platform for UMKM
+                Platform E-Commerce untuk UMKM
               </p>
 
               <p className="mt-5 max-w-2xl leading-8 text-slate-400">
                 Platform e-commerce yang saya kembangkan untuk membantu
                 UMKM menghadirkan pengalaman penjualan digital yang lebih
-                modern. Project ini mencakup katalog produk, autentikasi,
+                modern. Proyek ini mencakup katalog produk, autentikasi,
                 keranjang belanja, checkout, pengelolaan pesanan, akun
                 pelanggan, dan dashboard admin.
               </p>
@@ -201,7 +201,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-5 py-3 font-semibold text-slate-950 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/20"
               >
-                Live Demo
+                Demo Langsung
                 <span className="ml-2">↗</span>
               </a>
             </div>
@@ -212,17 +212,17 @@ export default function Projects() {
         <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/[0.02] px-6 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-7">
           <div>
             <p className="text-sm font-semibold text-white">
-              Project masih terus dikembangkan.
+              Proyek masih terus dikembangkan.
             </p>
 
             <p className="mt-1 text-sm leading-6 text-slate-500">
               Fitur, UI/UX, testing, dan optimasi akan terus diperbarui
-              seiring proses development.
+              seiring proses pengembangan.
             </p>
           </div>
 
           <span className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600">
-            Building in Public
+            Terus Dikembangkan
           </span>
         </div>
       </div>
