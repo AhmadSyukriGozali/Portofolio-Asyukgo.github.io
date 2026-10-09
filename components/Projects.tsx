@@ -1,3 +1,6 @@
+
+import Image from "next/image";
+
 export default function Projects() {
   return (
     <section
@@ -42,92 +45,32 @@ export default function Projects() {
             {/* Glow */}
             <div className="pointer-events-none absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/10 blur-[120px] transition duration-500 group-hover:bg-cyan-400/15" />
 
-            {/* Browser */}
+            {/* Browser frame */}
             <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border border-white/10 bg-slate-950 shadow-2xl shadow-black/30">
               {/* Browser header */}
               <div className="flex h-11 items-center gap-1.5 border-b border-white/10 bg-slate-950 px-4 sm:h-12 sm:px-5">
-                <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
-                <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
-                <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
+                <span className="h-2.5 w-2.5 rounded-full bg-red-400/80" />
+                <span className="h-2.5 w-2.5 rounded-full bg-yellow-400/80" />
+                <span className="h-2.5 w-2.5 rounded-full bg-green-400/80" />
 
                 <div className="ml-3 flex h-6 flex-1 items-center rounded-md border border-white/5 bg-white/[0.03] px-3">
-                  <span className="truncate text-[9px] text-slate-600 sm:text-[10px]">
-                    nusarasa.vercel.app
+                  <span className="truncate text-[9px] text-slate-400 sm:text-[10px]">
+                    nusarasa-ecommerce.vercel.app
                   </span>
                 </div>
               </div>
 
-              {/* Website preview */}
-              <div className="grid min-h-[230px] grid-cols-[82px_1fr] sm:min-h-[320px] sm:grid-cols-[145px_1fr] lg:min-h-[390px] lg:grid-cols-[175px_1fr]">
-                {/* Sidebar */}
-                <div className="border-r border-white/10 bg-[#101010] p-3 sm:p-5 lg:p-6">
-                  <div className="flex items-center gap-2.5">
-                    <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-white text-[9px] font-black text-black sm:h-8 sm:w-8">
-                      NR
-                    </div>
-
-                    <span className="hidden text-xs font-bold text-white lg:block">
-                      NusaRasa
-                    </span>
-                  </div>
-
-                  <div className="mt-8 space-y-2">
-                    <div className="h-7 rounded-lg bg-white/10" />
-                    <div className="h-7 rounded-lg bg-white/[0.04]" />
-                    <div className="h-7 rounded-lg bg-white/[0.04]" />
-                    <div className="h-7 rounded-lg bg-white/[0.04]" />
-                    <div className="mt-5 h-px bg-white/10" />
-                    <div className="h-7 rounded-lg bg-white/[0.04]" />
-                  </div>
-                </div>
-
-                {/* Main content */}
-                <div className="bg-gray-50 p-4 sm:p-7 lg:p-9">
-                  {/* Header */}
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="h-2.5 w-20 rounded bg-gray-200 sm:h-3 sm:w-24" />
-
-                      <div className="mt-2 h-5 w-32 rounded bg-gray-900/80 sm:h-6 sm:w-48" />
-                    </div>
-
-                    <div className="h-8 w-8 rounded-full bg-gray-200 sm:h-10 sm:w-10" />
-                  </div>
-
-                  {/* Category chips */}
-                  <div className="mt-5 flex gap-2">
-                    <div className="h-5 w-14 rounded-full bg-gray-900/10" />
-                    <div className="h-5 w-16 rounded-full bg-gray-900/5" />
-                    <div className="h-5 w-12 rounded-full bg-gray-900/5" />
-                  </div>
-
-                  {/* Products */}
-                  <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:gap-4">
-                    <div className="overflow-hidden rounded-xl bg-white shadow-sm">
-                      <div className="aspect-square bg-gray-200" />
-                      <div className="space-y-2 p-3">
-                        <div className="h-2.5 w-3/4 rounded bg-gray-200" />
-                        <div className="h-3 w-1/2 rounded bg-gray-900/10" />
-                      </div>
-                    </div>
-
-                    <div className="overflow-hidden rounded-xl bg-white shadow-sm">
-                      <div className="aspect-square bg-gray-200" />
-                      <div className="space-y-2 p-3">
-                        <div className="h-2.5 w-3/4 rounded bg-gray-200" />
-                        <div className="h-3 w-1/2 rounded bg-gray-900/10" />
-                      </div>
-                    </div>
-
-                    <div className="hidden overflow-hidden rounded-xl bg-white shadow-sm sm:block">
-                      <div className="aspect-square bg-gray-200" />
-                      <div className="space-y-2 p-3">
-                        <div className="h-2.5 w-3/4 rounded bg-gray-200" />
-                        <div className="h-3 w-1/2 rounded bg-gray-900/10" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              {/* Real NusaRasa screenshot */}
+              <div className="relative w-full overflow-hidden bg-white">
+                <Image
+                  src="/previewProjects/preview-nusarasa-ecommerce.png"
+                  alt="Tampilan website e-commerce NusaRasa"
+                  width={1600}
+                  height={900}
+                  priority
+                  className="block h-auto w-full object-contain object-top"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 960px"
+                />
               </div>
             </div>
 
@@ -196,7 +139,7 @@ export default function Projects() {
               </a>
 
               <a
-                href="https://nusarasa.vercel.app"
+                href="https://nusarasa-ecommerce.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-5 py-3 font-semibold text-slate-950 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/20"
